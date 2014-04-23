@@ -1,0 +1,22 @@
+# UG Matcher Benchmark
+
+## Latest Result
+
+```
+$ gradle run
+:ugmatcha is getting tests from [task ':ugmatcha:test']
+:ugmatcha:compileJava UP-TO-DATE
+:ugmatcha:processResources UP-TO-DATE
+:ugmatcha:classes UP-TO-DATE
+:ugmatcha:jar UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+ UGMatcher   11719.596 queries/sec (100000 queries in  8.533 secs) found 3110
+    Regexp   16794.435 queries/sec (100000 queries in  5.954 secs) found 3110
+
+BUILD SUCCESSFUL
+
+Total time: 18.069 secs
+```
