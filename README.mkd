@@ -13,11 +13,10 @@ $ gradle run
 :processResources UP-TO-DATE
 :classes UP-TO-DATE
 :run
- UGMatcher   15310.861 queries/sec (100000 queries in  6.531 secs) found 3110
-    Regexp   16735.328 queries/sec (100000 queries in  5.975 secs) found 3110
+ UGMatcher   14590.419 queries/sec (100000 queries in  6.854 secs) found 3110
+    Regexp   16209.032 queries/sec (100000 queries in  6.169 secs) found 3110
 
 BUILD SUCCESSFUL
 
-Total time: 16.17 secs
-
+Total time: 16.876 secs
 ```
