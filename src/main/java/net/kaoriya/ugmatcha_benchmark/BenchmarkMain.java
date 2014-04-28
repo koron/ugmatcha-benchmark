@@ -9,8 +9,7 @@ public class BenchmarkMain {
 
     public static final String TARGETS_PATH = "data/targets2.txt";
 
-    public static final long FINDCOUNT_UGMATCHER = 100000;
-    public static final long FINDCOUNT_REGEXP = 100000;
+    public static final long FINDCOUNT = 100000;
 
     public static void benchmark(
             Engine engine,
@@ -62,7 +61,15 @@ public class BenchmarkMain {
     }
 
     public static void main(String[] args) throws Exception {
-        benchmark(new UGMatcherEngine(), FINDCOUNT_UGMATCHER);
-        benchmark(new RegexpEngine(), FINDCOUNT_REGEXP);
+        benchmark(new UGMatcherEngine(), FINDCOUNT);
+        benchmark(new UGMatcherEngine(), FINDCOUNT);
+        benchmark(new UGMatcherEngine(), FINDCOUNT);
+        benchmark(new UGMatcherEngine(), FINDCOUNT);
+        benchmark(new UGMatcherEngine(), FINDCOUNT);
+        benchmark(new RegexpEngine(), FINDCOUNT);
+        benchmark(new RegexpEngine(), FINDCOUNT);
+        benchmark(new RegexpEngine(), FINDCOUNT);
+        benchmark(new RegexpEngine(), FINDCOUNT);
+        benchmark(new RegexpEngine(), FINDCOUNT);
     }
 }
