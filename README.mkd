@@ -13,18 +13,18 @@ $ gradle run
 :processResources UP-TO-DATE
 :classes
 :run
- UGMatcher   20945.135 queries/sec (100000 queries in  4.774 secs) found 3110
- UGMatcher   20676.579 queries/sec (100000 queries in  4.836 secs) found 3110
- UGMatcher   20658.918 queries/sec (100000 queries in  4.841 secs) found 3110
- UGMatcher   21188.747 queries/sec (100000 queries in  4.719 secs) found 3110
- UGMatcher   21107.749 queries/sec (100000 queries in  4.738 secs) found 3110
-    Regexp   20732.316 queries/sec (100000 queries in  4.823 secs) found 3110
-    Regexp   19347.353 queries/sec (100000 queries in  5.169 secs) found 3110
-    Regexp   18354.959 queries/sec (100000 queries in  5.448 secs) found 3110
-    Regexp   18355.528 queries/sec (100000 queries in  5.448 secs) found 3110
-    Regexp   18329.875 queries/sec (100000 queries in  5.456 secs) found 3110
+ UGMatcher   21083.216 queries/sec (100000 queries in  4.743 secs) found 3110
+ UGMatcher   21520.472 queries/sec (100000 queries in  4.647 secs) found 3110
+ UGMatcher   21884.445 queries/sec (100000 queries in  4.569 secs) found 3110
+ UGMatcher   21891.661 queries/sec (100000 queries in  4.568 secs) found 3110
+ UGMatcher   21323.083 queries/sec (100000 queries in  4.690 secs) found 3110
+    Regexp   20667.322 queries/sec (100000 queries in  4.839 secs) found 3110
+    Regexp   19663.946 queries/sec (100000 queries in  5.085 secs) found 3110
+    Regexp   17917.795 queries/sec (100000 queries in  5.581 secs) found 3110
+    Regexp   17896.220 queries/sec (100000 queries in  5.588 secs) found 3110
+    Regexp   17880.284 queries/sec (100000 queries in  5.593 secs) found 3110
 
 BUILD SUCCESSFUL
 
-Total time: 54.619 secs
+Total time: 54.257 secs
 ```
