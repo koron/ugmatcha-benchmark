@@ -13,18 +13,30 @@ $ gradle run
 :processResources UP-TO-DATE
 :classes
 :run
- UGMatcher   21083.216 queries/sec (100000 queries in  4.743 secs) found 3110
- UGMatcher   21520.472 queries/sec (100000 queries in  4.647 secs) found 3110
- UGMatcher   21884.445 queries/sec (100000 queries in  4.569 secs) found 3110
- UGMatcher   21891.661 queries/sec (100000 queries in  4.568 secs) found 3110
- UGMatcher   21323.083 queries/sec (100000 queries in  4.690 secs) found 3110
-    Regexp   20667.322 queries/sec (100000 queries in  4.839 secs) found 3110
-    Regexp   19663.946 queries/sec (100000 queries in  5.085 secs) found 3110
-    Regexp   17917.795 queries/sec (100000 queries in  5.581 secs) found 3110
-    Regexp   17896.220 queries/sec (100000 queries in  5.588 secs) found 3110
-    Regexp   17880.284 queries/sec (100000 queries in  5.593 secs) found 3110
+ UGMatcher  21135.984 Qs/sec (100000 Qs in  4.731s) found 3110 Ws
+           (used 4058248 bytes, max 6.717MB, min 2.846MB)
+ UGMatcher  21051.040 Qs/sec (100000 Qs in  4.750s) found 3110 Ws
+           (used 320 bytes, max 2.904MB, min 2.904MB)
+ UGMatcher  21313.445 Qs/sec (100000 Qs in  4.692s) found 3110 Ws
+           (used 320 bytes, max 2.901MB, min 2.901MB)
+ UGMatcher  21588.991 Qs/sec (100000 Qs in  4.632s) found 3110 Ws
+           (used 320 bytes, max 2.901MB, min 2.901MB)
+ UGMatcher  21251.663 Qs/sec (100000 Qs in  4.706s) found 3110 Ws
+           (used 320 bytes, max 2.902MB, min 2.901MB)
+    Regexp  20648.665 Qs/sec (100000 Qs in  4.843s) found 3110 Ws
+           (used 18938448 bytes, max 20.900MB, min 2.839MB)
+    Regexp  16748.006 Qs/sec (100000 Qs in  5.971s) found 3110 Ws
+           (used 18938240 bytes, max 20.906MB, min 2.845MB)
+    Regexp  18257.828 Qs/sec (100000 Qs in  5.477s) found 3110 Ws
+           (used 18938240 bytes, max 20.906MB, min 2.845MB)
+    Regexp  18145.182 Qs/sec (100000 Qs in  5.511s) found 3110 Ws
+           (used 18938240 bytes, max 20.906MB, min 2.845MB)
+    Regexp  18282.146 Qs/sec (100000 Qs in  5.470s) found 3110 Ws
+           (used 18938240 bytes, max 20.906MB, min 2.845MB)
+
+# Qs=queries, Ws=words, MB=1024*1024
 
 BUILD SUCCESSFUL
 
-Total time: 54.257 secs
+Total time: 55.294 secs
 ```
