@@ -84,7 +84,7 @@ public class BenchmarkMain {
     }
 
     public static void main(String[] args) throws Exception {
-        int repeatTime = 5;
+        int repeatTime = 3;
         benchmark2(UGMatcherEngine.class, repeatTime);
         benchmark2(IndexOfEngine.class, repeatTime);
         benchmark2(RegexpEngine.class, repeatTime);

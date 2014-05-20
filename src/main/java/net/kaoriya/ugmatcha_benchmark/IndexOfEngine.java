@@ -14,7 +14,8 @@ public class IndexOfEngine implements Engine {
     }
 
     public String findOne(String text) {
-        for (String s : list) {
+        for (int i = 0; i < this.list.size(); ++i) {
+            String s = this.list.get(i);
             if (text.indexOf(s) >= 0) {
                 return s;
             }
