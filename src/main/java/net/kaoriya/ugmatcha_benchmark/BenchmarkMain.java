@@ -85,12 +85,15 @@ public class BenchmarkMain {
 
     public static void main(String[] args) throws Exception {
         int repeatTime = 3;
+
         benchmark2(UGMatcherEngine.class, repeatTime);
+        benchmark2(AhoCoraEngine.class, repeatTime);
         benchmark2(IndexOfEngine.class, repeatTime);
         benchmark2(BNDMEngine.class, repeatTime);
         benchmark2(BMHEngine.class, repeatTime);
         benchmark2(BMHREngine.class, repeatTime);
         benchmark2(RegexpEngine.class, repeatTime);
+
         System.out.println("");
         System.out.println("# Qs=queries, Ws=words, MB=1024*1024");
     }
