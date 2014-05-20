@@ -75,18 +75,19 @@ public class BenchmarkMain {
         System.out.println("");
     }
 
-    public static void main(String[] args) throws Exception {
-        benchmark(new UGMatcherEngine(), FINDCOUNT);
-        benchmark(new UGMatcherEngine(), FINDCOUNT);
-        benchmark(new UGMatcherEngine(), FINDCOUNT);
-        benchmark(new UGMatcherEngine(), FINDCOUNT);
-        benchmark(new UGMatcherEngine(), FINDCOUNT);
-        benchmark(new RegexpEngine(), FINDCOUNT);
-        benchmark(new RegexpEngine(), FINDCOUNT);
-        benchmark(new RegexpEngine(), FINDCOUNT);
-        benchmark(new RegexpEngine(), FINDCOUNT);
-        benchmark(new RegexpEngine(), FINDCOUNT);
+    public static void benchmark2(Class<? extends Engine> c, int time)
+        throws Exception
+    {
+        for (int i = 0; i < time; ++i) {
+            benchmark(c.newInstance(), FINDCOUNT);
+        }
+    }
 
+    public static void main(String[] args) throws Exception {
+        int repeatTime = 5;
+        benchmark2(UGMatcherEngine.class, repeatTime);
+        benchmark2(IndexOfEngine.class, repeatTime);
+        benchmark2(RegexpEngine.class, repeatTime);
         System.out.println("");
         System.out.println("# Qs=queries, Ws=words, MB=1024*1024");
     }

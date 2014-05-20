@@ -13,30 +13,40 @@ $ gradle run
 :processResources UP-TO-DATE
 :classes
 :run
- UGMatcher  21135.984 Qs/sec (100000 Qs in  4.731s) found 3110 Ws
-           (used 4058248 bytes, max 6.717MB, min 2.846MB)
- UGMatcher  21051.040 Qs/sec (100000 Qs in  4.750s) found 3110 Ws
-           (used 320 bytes, max 2.904MB, min 2.904MB)
- UGMatcher  21313.445 Qs/sec (100000 Qs in  4.692s) found 3110 Ws
-           (used 320 bytes, max 2.901MB, min 2.901MB)
- UGMatcher  21588.991 Qs/sec (100000 Qs in  4.632s) found 3110 Ws
-           (used 320 bytes, max 2.901MB, min 2.901MB)
- UGMatcher  21251.663 Qs/sec (100000 Qs in  4.706s) found 3110 Ws
-           (used 320 bytes, max 2.902MB, min 2.901MB)
-    Regexp  20648.665 Qs/sec (100000 Qs in  4.843s) found 3110 Ws
-           (used 18938448 bytes, max 20.900MB, min 2.839MB)
-    Regexp  16748.006 Qs/sec (100000 Qs in  5.971s) found 3110 Ws
-           (used 18938240 bytes, max 20.906MB, min 2.845MB)
-    Regexp  18257.828 Qs/sec (100000 Qs in  5.477s) found 3110 Ws
-           (used 18938240 bytes, max 20.906MB, min 2.845MB)
-    Regexp  18145.182 Qs/sec (100000 Qs in  5.511s) found 3110 Ws
-           (used 18938240 bytes, max 20.906MB, min 2.845MB)
-    Regexp  18282.146 Qs/sec (100000 Qs in  5.470s) found 3110 Ws
-           (used 18938240 bytes, max 20.906MB, min 2.845MB)
+ UGMatcher  21628.329 Qs/sec (100000 Qs in  4.624s) found 3110 Ws
+           (used 4058248 bytes, max 6.718MB, min 2.848MB)
+ UGMatcher  21258.324 Qs/sec (100000 Qs in  4.704s) found 3110 Ws
+           (used 320 bytes, max 2.906MB, min 2.905MB)
+ UGMatcher  21769.063 Qs/sec (100000 Qs in  4.594s) found 3110 Ws
+           (used 320 bytes, max 2.903MB, min 2.902MB)
+ UGMatcher  21785.241 Qs/sec (100000 Qs in  4.590s) found 3110 Ws
+           (used 320 bytes, max 2.903MB, min 2.902MB)
+ UGMatcher  21704.922 Qs/sec (100000 Qs in  4.607s) found 3110 Ws
+           (used 320 bytes, max 2.903MB, min 2.903MB)
+   IndexOf 269983.783 Qs/sec (100000 Qs in  0.370s) found 3110 Ws
+           (used 4061288 bytes, max 6.696MB, min 2.823MB)
+   IndexOf 277182.338 Qs/sec (100000 Qs in  0.361s) found 3110 Ws
+           (used 4058064 bytes, max 6.693MB, min 2.823MB)
+   IndexOf 275885.800 Qs/sec (100000 Qs in  0.362s) found 3110 Ws
+           (used 4058064 bytes, max 6.693MB, min 2.823MB)
+   IndexOf 278110.747 Qs/sec (100000 Qs in  0.360s) found 3110 Ws
+           (used 4058064 bytes, max 6.693MB, min 2.823MB)
+   IndexOf 277610.134 Qs/sec (100000 Qs in  0.360s) found 3110 Ws
+           (used 4058064 bytes, max 6.693MB, min 2.823MB)
+    Regexp  20647.182 Qs/sec (100000 Qs in  4.843s) found 3110 Ws
+           (used 18938288 bytes, max 20.903MB, min 2.842MB)
+    Regexp  16816.681 Qs/sec (100000 Qs in  5.946s) found 3110 Ws
+           (used 18938048 bytes, max 20.908MB, min 2.848MB)
+    Regexp  16801.921 Qs/sec (100000 Qs in  5.952s) found 3110 Ws
+           (used 18938048 bytes, max 20.908MB, min 2.848MB)
+    Regexp  15700.979 Qs/sec (100000 Qs in  6.369s) found 3110 Ws
+           (used 18938048 bytes, max 20.908MB, min 2.848MB)
+    Regexp  16784.356 Qs/sec (100000 Qs in  5.958s) found 3110 Ws
+           (used 18938224 bytes, max 20.909MB, min 2.848MB)
 
 # Qs=queries, Ws=words, MB=1024*1024
 
 BUILD SUCCESSFUL
 
-Total time: 55.294 secs
+Total time: 58.465 secs
 ```
