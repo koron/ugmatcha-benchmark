@@ -87,6 +87,7 @@ public class BenchmarkMain {
         int repeatTime = 3;
 
         benchmark2(UGMatcherEngine.class, repeatTime);
+        benchmark2(MyAhoCoraEngine.class, repeatTime);
         benchmark2(AhoCoraEngine.class, repeatTime);
         benchmark2(IndexOfEngine.class, repeatTime);
         benchmark2(BNDMEngine.class, repeatTime);
