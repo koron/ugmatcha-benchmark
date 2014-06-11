@@ -90,9 +90,9 @@ public class BenchmarkMain {
         benchmark2(MyAhoCoraEngine.class, repeatTime);
         benchmark2(AhoCoraEngine.class, repeatTime);
         benchmark2(IndexOfEngine.class, repeatTime);
-        benchmark2(BNDMEngine.class, repeatTime);
-        benchmark2(BMHEngine.class, repeatTime);
-        benchmark2(BMHREngine.class, repeatTime);
+        //benchmark2(BNDMEngine.class, repeatTime);
+        //benchmark2(BMHEngine.class, repeatTime);
+        //benchmark2(BMHREngine.class, repeatTime);
         benchmark2(RegexpEngine.class, repeatTime);
 
         System.out.println("");

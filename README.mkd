@@ -8,63 +8,45 @@ $ gradle run
 :ugmatcha:compileJava UP-TO-DATE
 :ugmatcha:processResources UP-TO-DATE
 :ugmatcha:classes UP-TO-DATE
-:ugmatcha:jar
+:ugmatcha:jar UP-TO-DATE
 :compileJava
 :processResources UP-TO-DATE
 :classes
 :run
- UGMatcher  20858.545 Qs/sec (100000 Qs in  4.794s) found 3110 Ws
-           (used 4058248 bytes, max 6.723MB, min 2.853MB)
- UGMatcher  21605.763 Qs/sec (100000 Qs in  4.628s) found 3110 Ws
-           (used 320 bytes, max 2.910MB, min 2.910MB)
- UGMatcher  21589.604 Qs/sec (100000 Qs in  4.632s) found 3110 Ws
-           (used 320 bytes, max 2.907MB, min 2.907MB)
- MyAhoCora 314744.687 Qs/sec (100000 Qs in  0.318s) found 3110 Ws
-           (used 2705392 bytes, max 5.548MB, min 2.968MB)
- MyAhoCora 323514.901 Qs/sec (100000 Qs in  0.309s) found 3110 Ws
-           (used 2705392 bytes, max 5.519MB, min 2.939MB)
- MyAhoCora 323747.879 Qs/sec (100000 Qs in  0.309s) found 3110 Ws
-           (used 2705400 bytes, max 5.517MB, min 2.937MB)
-   AhoCora 211094.431 Qs/sec (100000 Qs in  0.474s) found 3110 Ws
-           (used 25703880 bytes, max 27.610MB, min 3.097MB)
-   AhoCora 224590.609 Qs/sec (100000 Qs in  0.445s) found 3110 Ws
-           (used 24350864 bytes, max 26.304MB, min 3.081MB)
-   AhoCora 225161.696 Qs/sec (100000 Qs in  0.444s) found 3110 Ws
-           (used 24351320 bytes, max 26.300MB, min 3.077MB)
-   IndexOf 275805.255 Qs/sec (100000 Qs in  0.363s) found 3110 Ws
-           (used 1352688 bytes, max 4.135MB, min 2.845MB)
-   IndexOf 284505.914 Qs/sec (100000 Qs in  0.351s) found 3110 Ws
-           (used 0 bytes, max 2.845MB, min 2.845MB)
-   IndexOf 283785.350 Qs/sec (100000 Qs in  0.352s) found 3110 Ws
-           (used 0 bytes, max 2.852MB, min 2.852MB)
-   BNDM:SS  63203.402 Qs/sec (100000 Qs in  1.582s) found 3110 Ws
-           (used 381739008 bytes, max 366.943MB, min 2.888MB)
-   BNDM:SS  67343.562 Qs/sec (100000 Qs in  1.485s) found 3110 Ws
-           (used 365953024 bytes, max 351.863MB, min 2.863MB)
-   BNDM:SS  66599.252 Qs/sec (100000 Qs in  1.502s) found 3110 Ws
-           (used 243269632 bytes, max 234.863MB, min 2.863MB)
-    BMH:SS  56685.041 Qs/sec (100000 Qs in  1.764s) found 3110 Ws
-           (used 162037760 bytes, max 157.399MB, min 2.868MB)
-    BMH:SS  57660.469 Qs/sec (100000 Qs in  1.734s) found 3110 Ws
-           (used 138444800 bytes, max 134.895MB, min 2.864MB)
-    BMH:SS  57920.602 Qs/sec (100000 Qs in  1.727s) found 3110 Ws
-           (used 225968128 bytes, max 218.364MB, min 2.864MB)
-   BMHR:SS  67535.248 Qs/sec (100000 Qs in  1.481s) found 3110 Ws
-           (used 201850880 bytes, max 195.369MB, min 2.869MB)
-   BMHR:SS  68134.854 Qs/sec (100000 Qs in  1.468s) found 3110 Ws
-           (used 169902080 bytes, max 164.897MB, min 2.866MB)
-   BMHR:SS  68205.066 Qs/sec (100000 Qs in  1.466s) found 3110 Ws
-           (used 217678272 bytes, max 210.460MB, min 2.866MB)
-    Regexp  20513.479 Qs/sec (100000 Qs in  4.875s) found 3110 Ws
-           (used 20695200 bytes, max 22.620MB, min 2.884MB)
-    Regexp  16729.733 Qs/sec (100000 Qs in  5.977s) found 3110 Ws
-           (used 20695168 bytes, max 22.626MB, min 2.890MB)
-    Regexp  16699.989 Qs/sec (100000 Qs in  5.988s) found 3110 Ws
-           (used 20695168 bytes, max 22.626MB, min 2.890MB)
+ UGMatcher  21305.118 Qs/sec (100000 Qs in  4.694s) found 3110 Ws
+           (used 8084776 bytes, max 10.562MB, min 2.851MB)
+ UGMatcher  21910.193 Qs/sec (100000 Qs in  4.564s) found 3110 Ws
+           (used 320 bytes, max 2.908MB, min 2.908MB)
+ UGMatcher  21881.149 Qs/sec (100000 Qs in  4.570s) found 3110 Ws
+           (used 320 bytes, max 2.905MB, min 2.905MB)
+ MyAhoCora 314424.976 Qs/sec (100000 Qs in  0.318s) found 3110 Ws
+           (used 2694888 bytes, max 5.537MB, min 2.967MB)
+ MyAhoCora 323515.905 Qs/sec (100000 Qs in  0.309s) found 3110 Ws
+           (used 2694888 bytes, max 5.507MB, min 2.937MB)
+ MyAhoCora 324355.561 Qs/sec (100000 Qs in  0.308s) found 3110 Ws
+           (used 2694864 bytes, max 5.505MB, min 2.935MB)
+   AhoCora 212177.591 Qs/sec (100000 Qs in  0.471s) found 3110 Ws
+           (used 26950160 bytes, max 28.797MB, min 3.095MB)
+   AhoCora 225342.991 Qs/sec (100000 Qs in  0.444s) found 3110 Ws
+           (used 24255104 bytes, max 26.211MB, min 3.080MB)
+   AhoCora 223793.349 Qs/sec (100000 Qs in  0.447s) found 3110 Ws
+           (used 24255448 bytes, max 26.207MB, min 3.076MB)
+   IndexOf 279495.323 Qs/sec (100000 Qs in  0.358s) found 3110 Ws
+           (used 2694864 bytes, max 5.413MB, min 2.843MB)
+   IndexOf 282859.557 Qs/sec (100000 Qs in  0.354s) found 3110 Ws
+           (used 0 bytes, max 2.843MB, min 2.843MB)
+   IndexOf 285729.679 Qs/sec (100000 Qs in  0.350s) found 3110 Ws
+           (used 0 bytes, max 2.850MB, min 2.850MB)
+    Regexp  21918.469 Qs/sec (100000 Qs in  4.562s) found 3110 Ws
+           (used 18864432 bytes, max 20.859MB, min 2.868MB)
+    Regexp  17774.620 Qs/sec (100000 Qs in  5.626s) found 3110 Ws
+           (used 18864368 bytes, max 20.865MB, min 2.874MB)
+    Regexp  17522.133 Qs/sec (100000 Qs in  5.707s) found 3110 Ws
+           (used 18864368 bytes, max 20.865MB, min 2.874MB)
 
 # Qs=queries, Ws=words, MB=1024*1024
 
 BUILD SUCCESSFUL
 
-Total time: 53.331 secs
+Total time: 37.698 secs
 ```
